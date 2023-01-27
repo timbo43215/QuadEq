@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1F57652983177B00DF7051 /* QuadEqApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1F57642983177B00DF7051 /* QuadEqApp.swift */; };
+		AB1F57672983177B00DF7051 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1F57662983177B00DF7051 /* ContentView.swift */; };
+		AB1F57692983177C00DF7051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1F57682983177C00DF7051 /* Assets.xcassets */; };
+		AB1F576C2983177C00DF7051 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1F576B2983177C00DF7051 /* Preview Assets.xcassets */; };
+		AB1F57772983177C00DF7051 /* QuadEqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1F57762983177C00DF7051 /* QuadEqTests.swift */; };
+		AB1F57812983177C00DF7051 /* QuadEqUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1F57802983177C00DF7051 /* QuadEqUITests.swift */; };
+		AB1F57832983177C00DF7051 /* QuadEqUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1F57822983177C00DF7051 /* QuadEqUITestsLaunchTests.swift */; };
+		AB1F5792298318DC00DF7051 /* PosQuadNorm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1F5791298318DC00DF7051 /* PosQuadNorm.swift */; };
+		AB1F579629831CCC00DF7051 /* NegQuadNorm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1F579529831CCB00DF7051 /* NegQuadNorm.swift */; };
+		AB1F579829831D3A00DF7051 /* PosQuadAlt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1F579729831D3A00DF7051 /* PosQuadAlt.swift */; };
+		AB1F579A29831D4C00DF7051 /* NegQuadAlt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1F579929831D4C00DF7051 /* NegQuadAlt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB1F57732983177C00DF7051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1F57592983177B00DF7051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1F57602983177B00DF7051;
+			remoteInfo = QuadEq;
+		};
+		AB1F577D2983177C00DF7051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1F57592983177B00DF7051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1F57602983177B00DF7051;
+			remoteInfo = QuadEq;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB1F57612983177B00DF7051 /* QuadEq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuadEq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1F57642983177B00DF7051 /* QuadEqApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadEqApp.swift; sourceTree = "<group>"; };
+		AB1F57662983177B00DF7051 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB1F57682983177C00DF7051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB1F576B2983177C00DF7051 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB1F576D2983177C00DF7051 /* QuadEq.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuadEq.entitlements; sourceTree = "<group>"; };
+		AB1F57722983177C00DF7051 /* QuadEqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadEqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1F57762983177C00DF7051 /* QuadEqTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadEqTests.swift; sourceTree = "<group>"; };
+		AB1F577C2983177C00DF7051 /* QuadEqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadEqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1F57802983177C00DF7051 /* QuadEqUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadEqUITests.swift; sourceTree = "<group>"; };
+		AB1F57822983177C00DF7051 /* QuadEqUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadEqUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB1F5791298318DC00DF7051 /* PosQuadNorm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosQuadNorm.swift; sourceTree = "<group>"; };
+		AB1F579529831CCB00DF7051 /* NegQuadNorm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegQuadNorm.swift; sourceTree = "<group>"; };
+		AB1F579729831D3A00DF7051 /* PosQuadAlt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosQuadAlt.swift; sourceTree = "<group>"; };
+		AB1F579929831D4C00DF7051 /* NegQuadAlt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegQuadAlt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1F575E2983177B00DF7051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1F576F2983177C00DF7051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1F57792983177C00DF7051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB1F57582983177B00DF7051 = {
+			isa = PBXGroup;
+			children = (
+				AB1F57632983177B00DF7051 /* QuadEq */,
+				AB1F57752983177C00DF7051 /* QuadEqTests */,
+				AB1F577F2983177C00DF7051 /* QuadEqUITests */,
+				AB1F57622983177B00DF7051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1F57622983177B00DF7051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1F57612983177B00DF7051 /* QuadEq.app */,
+				AB1F57722983177C00DF7051 /* QuadEqTests.xctest */,
+				AB1F577C2983177C00DF7051 /* QuadEqUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1F57632983177B00DF7051 /* QuadEq */ = {
+			isa = PBXGroup;
+			children = (
+				AB1F57642983177B00DF7051 /* QuadEqApp.swift */,
+				AB1F57662983177B00DF7051 /* ContentView.swift */,
+				AB1F5791298318DC00DF7051 /* PosQuadNorm.swift */,
+				AB1F579529831CCB00DF7051 /* NegQuadNorm.swift */,
+				AB1F579729831D3A00DF7051 /* PosQuadAlt.swift */,
+				AB1F579929831D4C00DF7051 /* NegQuadAlt.swift */,
+				AB1F57682983177C00DF7051 /* Assets.xcassets */,
+				AB1F576D2983177C00DF7051 /* QuadEq.entitlements */,
+				AB1F576A2983177C00DF7051 /* Preview Content */,
+			);
+			path = QuadEq;
+			sourceTree = "<group>";
+		};
+		AB1F576A2983177C00DF7051 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB1F576B2983177C00DF7051 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB1F57752983177C00DF7051 /* QuadEqTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1F57762983177C00DF7051 /* QuadEqTests.swift */,
+			);
+			path = QuadEqTests;
+			sourceTree = "<group>";
+		};
+		AB1F577F2983177C00DF7051 /* QuadEqUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1F57802983177C00DF7051 /* QuadEqUITests.swift */,
+				AB1F57822983177C00DF7051 /* QuadEqUITestsLaunchTests.swift */,
+			);
+			path = QuadEqUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1F57602983177B00DF7051 /* QuadEq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1F57862983177C00DF7051 /* Build configuration list for PBXNativeTarget "QuadEq" */;
+			buildPhases = (
+				AB1F575D2983177B00DF7051 /* Sources */,
+				AB1F575E2983177B00DF7051 /* Frameworks */,
+				AB1F575F2983177B00DF7051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuadEq;
+			productName = QuadEq;
+			productReference = AB1F57612983177B00DF7051 /* QuadEq.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB1F57712983177C00DF7051 /* QuadEqTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1F57892983177C00DF7051 /* Build configuration list for PBXNativeTarget "QuadEqTests" */;
+			buildPhases = (
+				AB1F576E2983177C00DF7051 /* Sources */,
+				AB1F576F2983177C00DF7051 /* Frameworks */,
+				AB1F57702983177C00DF7051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1F57742983177C00DF7051 /* PBXTargetDependency */,
+			);
+			name = QuadEqTests;
+			productName = QuadEqTests;
+			productReference = AB1F57722983177C00DF7051 /* QuadEqTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB1F577B2983177C00DF7051 /* QuadEqUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1F578C2983177C00DF7051 /* Build configuration list for PBXNativeTarget "QuadEqUITests" */;
+			buildPhases = (
+				AB1F57782983177C00DF7051 /* Sources */,
+				AB1F57792983177C00DF7051 /* Frameworks */,
+				AB1F577A2983177C00DF7051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1F577E2983177C00DF7051 /* PBXTargetDependency */,
+			);
+			name = QuadEqUITests;
+			productName = QuadEqUITests;
+			productReference = AB1F577C2983177C00DF7051 /* QuadEqUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1F57592983177B00DF7051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AB1F57602983177B00DF7051 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AB1F57712983177C00DF7051 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB1F57602983177B00DF7051;
+					};
+					AB1F577B2983177C00DF7051 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB1F57602983177B00DF7051;
+					};
+				};
+			};
+			buildConfigurationList = AB1F575C2983177B00DF7051 /* Build configuration list for PBXProject "QuadEq" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB1F57582983177B00DF7051;
+			productRefGroup = AB1F57622983177B00DF7051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1F57602983177B00DF7051 /* QuadEq */,
+				AB1F57712983177C00DF7051 /* QuadEqTests */,
+				AB1F577B2983177C00DF7051 /* QuadEqUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB1F575F2983177B00DF7051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1F576C2983177C00DF7051 /* Preview Assets.xcassets in Resources */,
+				AB1F57692983177C00DF7051 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1F57702983177C00DF7051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1F577A2983177C00DF7051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1F575D2983177B00DF7051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1F57672983177B00DF7051 /* ContentView.swift in Sources */,
+				AB1F579629831CCC00DF7051 /* NegQuadNorm.swift in Sources */,
+				AB1F5792298318DC00DF7051 /* PosQuadNorm.swift in Sources */,
+				AB1F57652983177B00DF7051 /* QuadEqApp.swift in Sources */,
+				AB1F579829831D3A00DF7051 /* PosQuadAlt.swift in Sources */,
+				AB1F579A29831D4C00DF7051 /* NegQuadAlt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1F576E2983177C00DF7051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1F57772983177C00DF7051 /* QuadEqTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1F57782983177C00DF7051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1F57812983177C00DF7051 /* QuadEqUITests.swift in Sources */,
+				AB1F57832983177C00DF7051 /* QuadEqUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB1F57742983177C00DF7051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1F57602983177B00DF7051 /* QuadEq */;
+			targetProxy = AB1F57732983177C00DF7051 /* PBXContainerItemProxy */;
+		};
+		AB1F577E2983177C00DF7051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1F57602983177B00DF7051 /* QuadEq */;
+			targetProxy = AB1F577D2983177C00DF7051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB1F57842983177C00DF7051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB1F57852983177C00DF7051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB1F57872983177C00DF7051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuadEq/QuadEq.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuadEq/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.QuadEq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1F57882983177C00DF7051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuadEq/QuadEq.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuadEq/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.QuadEq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB1F578A2983177C00DF7051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.QuadEqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuadEq.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuadEq";
+			};
+			name = Debug;
+		};
+		AB1F578B2983177C00DF7051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.QuadEqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuadEq.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuadEq";
+			};
+			name = Release;
+		};
+		AB1F578D2983177C00DF7051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.QuadEqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuadEq;
+			};
+			name = Debug;
+		};
+		AB1F578E2983177C00DF7051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.QuadEqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuadEq;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1F575C2983177B00DF7051 /* Build configuration list for PBXProject "QuadEq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1F57842983177C00DF7051 /* Debug */,
+				AB1F57852983177C00DF7051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1F57862983177C00DF7051 /* Build configuration list for PBXNativeTarget "QuadEq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1F57872983177C00DF7051 /* Debug */,
+				AB1F57882983177C00DF7051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1F57892983177C00DF7051 /* Build configuration list for PBXNativeTarget "QuadEqTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1F578A2983177C00DF7051 /* Debug */,
+				AB1F578B2983177C00DF7051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1F578C2983177C00DF7051 /* Build configuration list for PBXNativeTarget "QuadEqUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1F578D2983177C00DF7051 /* Debug */,
+				AB1F578E2983177C00DF7051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB1F57592983177B00DF7051 /* Project object */;
+}
